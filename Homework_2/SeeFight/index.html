@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>See Fight</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Морской бой</h2>
+    </header>
+    <main>
+        <div class="game_zone">
+            <div class="game_pool">
+                <p>Ваше поле</p>
+                <div class="game" id="user_pool"></div>
+            </div>
+            <div class="game_pool">
+                <p>Поле соперника</p>
+                <div class="game" id="comp_pool">
+                </div>
+            </div>
+            <div class="game_console">
+                <p>Консоль</p>
+                <div class="console_head">
+                    <span>Ваши ходы</span>
+                    <span>Ходы противника</span>
+                </div>
+                <label>
+                    <textarea readonly class="user_console"></textarea>
+                    <textarea readonly class="comp_console"></textarea>
+                </label>
+            </div>
+        </div>
+
+        <div class="game_buttons">
+            <button class="buttons" onclick="startGame();">Играть</button>
+        </div>
+    </main>
+    <footer>
+        <p>"Морской бой от Марселя" не является товарным знаком. Никакие права не защищены</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Bahnschrift, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header {
+    width: 100%;
+    background: lightslategrey;
+}
+
+h2 {
+    padding: 12px 16px 12px 16px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.game_zone {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0 24px 0;
+}
+
+#user_pool {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comp_pool {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game div:hover {
+    opacity: 5%;
+}
+
+.game_zone p {
+    border-bottom: 1px black solid;
+    padding: 12px;
+    background: aliceblue;
+}
+
+.game_pool {
+    width: 500px;
+    height: 544px;
+    background: grey;
+    border: black 1px solid;
+    margin: 0 16px 0 16px;
+}
+
+.game_console {
+    width: 347px;
+    height: 544px;
+    background: black;
+    border: black 1px solid;
+    margin: 0 16px 0 16px;
+}
+
+.game_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    padding: 12px;
+    font-size: 24px;
+    width: 200px;
+    background: lightslategrey;
+    color: aliceblue;
+    border: 1px aliceblue solid;
+    border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    background: lightslategrey;
+}
+
+footer p {
+    padding: 12px;
+}
+
+.ship_cell {
+    width: 50px;
+    height: 50px;
+    outline: 1px black dashed;
+    background: lightslategrey;
+    z-index: 1;
+}
+
+.sea_cell {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    outline: 1px grey dashed;
+    z-index: 0;
+}
+
+.comp_cells {}
+
+.user_cells {}
+
+label textarea {
+    resize: none;
+    width: 100%;
+    height: 454px;
+    border: 1px black solid;
+}
+
+label {
+    display: flex;
+}
+
+.game_console span {
+    border: 1px black solid;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: aliceblue;
+}
+
+.console_head {
+    display: flex;
+}
