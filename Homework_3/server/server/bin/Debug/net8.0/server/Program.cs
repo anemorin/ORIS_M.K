@@ -1,11 +1,7 @@
 using System;
 using server;
 
-
-Config _config = ServerConfiguration._config;
-string baseUrl = $"http://{_config.Address}:{_config.Port}/";
-string staticDirectory = _config.staticDirectory;
-Server server = new Server(baseUrl, staticDirectory);
+Server server = new Server();
 
 try
 {

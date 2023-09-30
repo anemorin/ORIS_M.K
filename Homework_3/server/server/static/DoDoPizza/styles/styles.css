@@ -35,6 +35,7 @@ body {
 }
 
 .header_btn_res {
+    text-align: center;
     padding: 10px 19px;
     background-color: #efe41a;
     min-width: 225px;
@@ -44,6 +45,8 @@ body {
     margin-right: 32px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .header_ic_work {

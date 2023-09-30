@@ -14,7 +14,7 @@
                 Your browser does not support SVG
             </object>
             <div class="header_right">
-                <button class="header_btn_res" type="button">Заполнить анкету</button>
+                <a class="header_btn_res" href="#form">Заполнить анкету</a>
                 <object class="header_ic_work" type="image/svg+xml" data="./images/ic_work.svg">
                     Your browser does not support SVG
                 </object>
@@ -139,15 +139,15 @@
             </div>
         </div>
 
-        <div class="dodo_form">
+        <div class="dodo_form" id="form">
             <h2>Заполните анкету</h2>
-            <form class="form" action="../server/send.cs" method="post">
+            <form class="form" action="./sendmail" method="post">
                 <div class="form_container">
                     <div class="form_left">
                         <select name="city" title="Выберете город" autocomplete="off">
-                            <option value="spb" selected>Санкт-Петербург</option>
-                            <option value="msk">Москва</option>
-                            <option value="kzn">Казань</option>
+                            <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Казань">Казань</option>
                         </select>
                         <select name="adress">
                             <option disabled selected value hidden="hidden"> Выберите адрес </option>
@@ -157,21 +157,21 @@
                         </select>
                         <select name="work">
                             <option disabled selected value hidden="hidden"> Кем хотите быть</option>
-                            <option value="first">Программистом</option>
-                            <option value="second">Уборщиком</option>
-                            <option value="third">Доставщиком</option>
+                            <option value="Програмистом">Программистом</option>
+                            <option value="Уборщиком">Уборщиком</option>
+                            <option value="Доставщиком">Доставщиком</option>
                         </select>
                     </div>
 
                     <div class="form_right">
-                        <input type="text" placeholder="Имя" required>
-                        <input type="text" placeholder="Фамилия" required>
+                        <input name="firstName" type="text" placeholder="Имя" required>
+                        <input name="lastName" type="text" placeholder="Фамилия" required>
                         <div class="form_right_mini">
-                            <input class="form_input_mini" type="text" placeholder="День рождения" required>
-                            <input type="number" placeholder="Телефон" required>
+                            <input name="birthday" class="form_input_mini" type="text" placeholder="День рождения" required>
+                            <input name="number" type="number" placeholder="Телефон" required>
                         </div>
                         <div class="form_right_last">
-                            <input type="url" placeholder="Ссылка на соцсети">
+                            <input name="socialLink" type="url" placeholder="Ссылка на соцсети">
                             <span>По желанию. На случай, если не дозвонимся по телефону.</span>
                         </div>
                     </div>

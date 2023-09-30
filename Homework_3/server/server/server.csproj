@@ -15,6 +15,9 @@
       <None Update="static\DoDoPizza\index.html">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Update="static\DoDoPizza\styles\styles.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 

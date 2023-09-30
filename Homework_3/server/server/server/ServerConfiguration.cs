@@ -25,5 +25,18 @@ public class Config
 {
     public string Address { get; set; }
     public int Port { get; set; }
-    public string staticDirectory { get; set; }
+    public string StaticDirectory { get; set; }
+    public string Mail { get; set; }
+    public string MailPassword { get; set; }
+}
+
+class Mail
+{
+    public Mail(string address, string pass)
+    {
+        Address = address;
+        Password = pass;
+    }
+    public string Address;
+    public string Password;
 }

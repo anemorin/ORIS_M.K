@@ -17,3 +17,4 @@ D:\dev\С#\#1\server\server\bin\Debug\net8.0\server\Program.cs
 D:\dev\С#\#1\server\server\bin\Debug\net8.0\appsettings.json
 D:\dev\С#\#1\server\server\bin\Debug\net8.0\static\DoDoPizza\index.html
 D:\dev\С#\#1\server\server\bin\Debug\net8.0\server\Server.cs
+D:\dev\С#\#1\server\server\bin\Debug\net8.0\static\DoDoPizza\styles\styles.css
