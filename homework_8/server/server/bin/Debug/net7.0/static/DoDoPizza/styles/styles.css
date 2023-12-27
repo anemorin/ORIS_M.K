@@ -1,0 +1,559 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Dodo Rounded", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+header {
+    padding: 48px 40px 24px 40px;
+}
+
+body {
+    margin: 0 55.6px;
+}
+
+.header_ic_work {
+    width: auto;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_right {
+    display: flex;
+}
+
+.header_btn_res {
+    text-align: center;
+    padding: 10px 19px;
+    background-color: #efe41a;
+    min-width: 225px;
+    height: 56px;
+    font-weight: 500;
+    border-radius: 64px;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.header_ic_work {
+    width: 143px;
+    height: 64px;
+}
+
+.dodoLove {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1360px;
+    padding: 64px 40px 48px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dodoLove_left {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    margin-right: 81px;
+}
+
+.dodoLove_left_slogan {
+    margin-bottom: 10.6px;
+}
+
+.dodoLove_left_slogan img {
+    width: 572px;
+    height: 176px;
+}
+
+.dodoLove_left_title {
+    margin-bottom: 10px;
+    font-size: 80px;
+    line-height: 88px;
+    font-weight: 600;
+}
+
+.dodoLove_right_text {
+    padding-right: 7px;
+    position: relative;
+    margin-top: 12px;
+    max-width: 476px;
+}
+
+.canvas_arroys {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.canvas_title {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    transform: rotate(-2.5deg);
+}
+
+.canvas_cor {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workers_images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.workers {
+    padding: 48px 0;
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.workers img {
+    width: 206px;
+    height: 268px;
+    border-radius: 18%;
+}
+
+.workers h2 {
+    line-height: 64px;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+
+.workers p {
+    margin: 0 0 36px;
+}
+
+.whyDodo {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 40px;
+}
+
+.wd_left {
+    width: 730px;
+    height: 485px;
+    margin-right: 20px;
+}
+
+.wd_left h2 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+}
+
+.ic_set {
+    width: 188px;
+    height: 135px;
+}
+
+.ic_set img {
+    margin-bottom: 6.53px;
+    display: inline-flex;
+    width: 52.71px;
+    height: 52.71px;
+}
+
+.wd_right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    height: 485px;
+}
+
+.set_text_top {
+    padding: 6px 16px 4px;
+    background-color: #efe41a;
+    border-radius: 21px;
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: .035em;
+}
+
+.set_text_bottom {
+    position: relative;
+    bottom: 7px;
+    background-color: #efe41a;
+    padding: 6px 16px 4px;
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: .035em;
+    border-radius: 19px 21px 21px 4px;
+}
+
+.dodoCare {
+    padding: 80px 40px;
+}
+
+.dodoCare h2 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 500;
+}
+
+.dodoCare p {
+    margin-bottom: 40px;
+    max-width: 759px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.dodoCare_cards {
+    display: flex;
+}
+
+.dodoCare_card {
+    width: 408px;
+    height: 605px;
+    padding: 32px 40px 48px;
+    margin-right: 28px;
+    border-radius: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dodoCare_card p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.dodoCare_card h3 {
+        display: block;
+    margin: 0 0 24px 0;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.dodoCare_card img {
+    width: 72px;
+    margin-bottom: 24px;
+}
+
+.dodo_form {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+}
+
+.dodo_form h2 {
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+}
+
+.form_left {
+    width: 49%;
+    max-width: 628px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.form_left select {
+    width: 100%;
+    padding-left: 32px;
+    border: 2px solid #efefef;
+    border-radius: 16px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.form_right input {
+    width: 100%;
+    padding-left: 32px;
+    border: 2px solid #efefef;
+    border-radius: 16px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container {
+    display: flex;
+}
+
+.form_input_mini {
+    margin-right: 24px;
+}
+
+.form_right {
+    width: 49%;
+    max-width: 628px;
+}
+
+.form_right_mini {
+    display: flex;
+    flex-direction: row;
+}
+
+.form_right_last {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_right_last input {
+    margin-bottom: 0;
+}
+
+.form_right_last span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(0,0,0,.3);
+}
+
+.form_checkbox {
+    display: flex;
+    align-items: center;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #FAEFE1;
+    border-radius: 25%;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+label a {
+    text-decoration: none;
+    color: #ED771E;
+    font-size: 18px;
+}
+
+.form_button {
+    margin-top: 32px;
+    padding: 21px 19px;
+    width: 400px;
+    border-radius: 64px;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #ED771E;
+    cursor: pointer;
+}
+
+.form_button:hover {
+    background: #efe41a;
+}
+
+.questions {
+    padding: 80px 40px;
+    display: flex;
+}
+
+.questions_left {
+    width: 100%;
+    max-width: 512px;
+    margin-right: 15px;
+}
+
+.questions h2 {
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.questions a {
+    color: #ed771e;
+    text-decoration: none;
+}
+
+.questions_right_buttons {
+    margin-bottom: 32px;
+}
+
+.question_button {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    background: none;
+    border: none;
+}
+
+.first_button {
+    color: #ed771e;
+}
+
+.questions_right {
+    width: 100%;
+}
+
+.questions_right p {
+    padding: 28px 32px;
+    background: #F8F8F8;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 24px;
+    margin-bottom: 16px;
+}
+
+footer {
+    padding: 44px 40px 27px;
+}
+
+.footer_top {
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+li span, li a {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: rgba(0,0,0,.5);
+}
+
+.footer_appItem {
+    display: inline-block;
+}
+
+.footer_appItem img {
+    width: 139px;
+    height: 40px;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.footer_middle {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+li span {
+    display: block;
+}
+
+.footer_middle ul {
+    display: flex;
+}
+
+li span:not(:last-of-type) {
+    margin-right: 4px;
+}
+
+li a {
+    display: flex;
+}
+
+.footer_middle li:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.footer_bottom {
+    display: flex;
+    padding-top: 24px;
+}
+
+.footer_bottom a, .footer_bottom span {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0,0,0,.5);;
+}
+
+.footer_bottom a:first-of-type {
+    padding: 0 16px;
+}
+
+.footer_bottom a:last-of-type {
+    padding-left: 318px;
+}
+
+.footer_copyright {
+    display: flex;
+}
+
+.footer_copyright img {
+    padding-right: 16px;
+}
+
+.footer_address {
+    padding-top: 24px;
+}
+
+.footer_address span {
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(0,0,0,.3);
+}
